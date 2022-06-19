@@ -53,10 +53,4 @@ public class Lutadores {
 		this.armor = armor;
 	}
 
-	@Override
-	public String toString() {
-		return getName() + ":" + (getLife() - (getAttack() - getArmor())) + " Vida: \n";
-
-	}
-
 }
